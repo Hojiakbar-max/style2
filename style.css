@@ -1,0 +1,681 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+nav {
+  background: rgba(255, 255, 255, 1);
+}
+.container {
+  width: 1391px;
+  margin: 0 auto;
+}
+.logo_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.ul_div ul {
+  display: flex;
+  gap: 70px;
+}
+.ul_div li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(41, 41, 41, 1);
+}
+
+.right_div {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.right_div a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+}
+button {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  width: 183px;
+  height: 51px;
+  border-radius: 4px;
+  background: rgba(1, 153, 109, 1);
+  color: white;
+  border: none;
+  text-align: center;
+}
+.background {
+  padding: 150px 0;
+  background-image: url(./img/ochkigirl.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 895px;
+}
+.ochki_div {
+  width: 440px;
+  height: 384px;
+}
+.ochki_div h2 {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(1, 153, 109, 1);
+}
+.ochki_div p {
+  padding: 30px 0 30px 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 157%;
+  letter-spacing: 0%;
+  color: rgba(72, 72, 72, 1);
+}
+/* button {
+  width: 227px;
+  height: 65px;
+  border-radius: 4px;
+  background: rgba(1, 153, 109, 1);
+  color: white;
+  border: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+} */
+.howwork {
+  padding: 170px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 327px;
+}
+
+.h2_div {
+  width: 571px;
+}
+.h2_div p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 157%;
+  letter-spacing: 0%;
+  color: rgba(66, 66, 66, 1);
+}
+.h2_div h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  letter-spacing: 0%;
+  color: rgba(1, 153, 109, 1);
+}
+.pyichka {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: rgba(66, 66, 66, 1);
+}
+.p_div {
+  width: 671px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  height: 1087px;
+}
+
+.card {
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: start;
+  height: 854px;
+}
+.card p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.cardtela {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+}
+.card_title {
+  position: relative;
+}
+.card_titles {
+  position: absolute;
+  top: -35px;
+  left: -90px;
+}
+
+.card:nth-child(2) {
+  align-self: flex-end;
+}
+
+.green {
+  background: rgba(36, 88, 82, 1);
+}
+.glavnaya {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 150px 0;
+}
+.green_right {
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.green_right h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  letter-spacing: 0%;
+  color: white;
+}
+.green_right p {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 157%;
+  letter-spacing: 0%;
+  color: white;
+}
+/* button {
+  width: 240px;
+  height: 65px;
+  background: rgba(1, 153, 109, 1);
+  color: white;
+  border: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 4px;
+  letter-spacing: 0px;
+} */
+
+.padding {
+  padding: 120px 275px 160px 275px;
+}
+.glavnaya2 {
+  width: 1370px;
+  height: 648px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.jensi {
+  width: 638px;
+  height: 573px;
+  position: relative;
+}
+.image_color {
+  width: 427px;
+  height: 641px;
+}
+.minijensovka {
+  position: absolute;
+  left: -90px;
+  bottom: -130px;
+}
+.jensiright {
+  width: 584px;
+  height: 413px;
+  display: flex;
+  flex-direction: column;
+  gap: 10x;
+}
+.jensiright p {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 157%;
+  letter-spacing: 0%;
+  color: rgba(66, 66, 66, 1);
+}
+.jensiright h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  letter-spacing: 0%;
+  color: rgba(1, 153, 109, 1);
+}
+.jensi_p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 157%;
+  letter-spacing: 0%;
+  color: rgba(72, 72, 72, 1);
+}
+.jensiright button {
+  margin-top: 10px;
+  width: 240px;
+  height: 65px;
+  background: rgba(1, 153, 109, 1);
+  color: white;
+  border: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 4px;
+  letter-spacing: 0px;
+}
+footer {
+  width: 100%;
+  height: 654px;
+  background: rgba(36, 88, 82, 1);
+}
+.foot {
+  padding: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 60px;
+}
+.foot h3 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+}
+.foot p {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+}
+
+button:hover {
+  color: green;
+  background-color: white;
+}
+
+button {
+  background: rgba(1, 153, 109, 1);
+
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: white;
+  color: rgba(1, 153, 109, 1);
+  border: 2px solid rgba(1, 153, 109, 1);
+  transform: scale(1.05);
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 1024px) {
+  /* container moslashadi */
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  /* umumiy overflow oldini olish */
+  body {
+    overflow-x: hidden;
+  }
+
+  * {
+    max-width: 100%;
+  }
+
+  /* NAVBAR */
+  .ul_div ul {
+    gap: 30px;
+  }
+
+  .right_div {
+    gap: 20px;
+  }
+
+  /* HERO */
+  .ochki_div {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .ochki_div h2 {
+    font-size: 48px;
+  }
+
+  /* HOW WORK */
+  .howwork {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+  }
+
+  .h2_div,
+  .p_div {
+    width: 100%;
+  }
+
+  /* CARDS */
+  .wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    height: auto;
+  }
+
+  .card {
+    width: 45%;
+    height: auto;
+  }
+
+  /* GREEN SECTION */
+  .glavnaya {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .green_right {
+    width: 100%;
+  }
+
+  .left_green img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* LAST SECTION */
+  .glavnaya2 {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 30px;
+  }
+
+  .jensi,
+  .jensiright {
+    width: 100%;
+  }
+
+  /* 🔥 rasmlar */
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .image_color {
+    width: 100%;
+  }
+
+  /* absolute rasmni tuzatamiz */
+  .minijensovka {
+    left: 0;
+    bottom: -40px;
+    width: 180px;
+  }
+
+  /* BUTTON */
+  button {
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  /* container moslashadi */
+  .container {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  /* hamma element overflow qilmasin */
+  * {
+    max-width: 100%;
+  }
+
+  /* navbar */
+  .logo_div {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .ul_div ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .right_div {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* hero */
+  .ochki_div {
+    width: 100%;
+  }
+
+  .ochki_div h2 {
+    font-size: 36px;
+  }
+
+  /* HOW WORK */
+  .howwork {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .h2_div,
+  .p_div {
+    width: 100%;
+  }
+
+  /* CARDS */
+  .wrapper {
+    flex-direction: column;
+    gap: 30px;
+    height: auto;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  /* GREEN */
+  .glavnaya {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .green_right {
+    width: 100%;
+  }
+
+  .left_green img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* LAST SECTION */
+  .glavnaya2 {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .jensi,
+  .jensiright {
+    width: 100%;
+  }
+
+  /* 🔥 ENG MUHIM: rasmlar */
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* position bo‘lgan rasmni tuzatamiz */
+  .minijensovka {
+    position: static;
+    width: 150px;
+    margin: 20px auto;
+  }
+
+  /* button */
+  button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  /* 🔥 container */
+  .container {
+    width: 100%;
+    padding: 0 12px;
+  }
+
+  /* 🔥 universal fix */
+  * {
+    max-width: 100%;
+  }
+
+  body {
+    overflow-x: hidden; /* yon scroll yo‘q */
+  }
+
+  /* NAVBAR */
+  .logo_div {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .ul_div ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .right_div {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* HERO */
+  .ochki_div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .ochki_div h2 {
+    font-size: 26px;
+  }
+
+  .ochki_div p {
+    font-size: 15px;
+  }
+
+  /* HOW WORK */
+  .howwork {
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .h2_div,
+  .p_div {
+    width: 100%;
+  }
+
+  /* CARDS */
+  .wrapper {
+    flex-direction: column;
+    gap: 25px;
+    height: auto;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  /* GREEN */
+  .glavnaya {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .green_right {
+    width: 100%;
+  }
+
+  /* LAST SECTION */
+  .glavnaya2 {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+  }
+
+  .jensi,
+  .jensiright {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* 🔥 ENG MUHIM: rasmlar */
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .image_color {
+    width: 100%;
+  }
+
+  /* absolute bo‘lgan rasmni o‘chirib qo‘yamiz */
+  .minijensovka {
+    position: static;
+    width: 120px;
+    margin: 15px auto;
+  }
+
+  /* BUTTON */
+  button {
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  /* FOOTER */
+  .foot {
+    padding: 40px 10px;
+    gap: 25px;
+  }
+}
